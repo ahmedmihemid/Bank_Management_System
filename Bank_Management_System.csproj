@@ -371,7 +371,6 @@
     <Content Include="Bank_DB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="bank_DB.sql" />
     <Content Include="Bank_DB_log.ldf">
       <DependentUpon>Bank_DB.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

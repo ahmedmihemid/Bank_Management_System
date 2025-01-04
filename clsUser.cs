@@ -199,9 +199,9 @@ public class clsUser : clsPerson
     public static clsUser Find(string userName, string password)
     {
         clsUser user = null;
-        string connectionString = "Server=(localdb)\\MSSQLLocalDB; Database=bank_system_DB; Trusted_Connection=True;";
+      
 
-        using (SqlConnection connection = new SqlConnection(connectionString))
+        using (SqlConnection connection = new SqlConnection(ConnectionString))
         {
             connection.Open();
             string query = "SELECT * FROM Users WHERE UserName = @UserName AND Password = @Password";
