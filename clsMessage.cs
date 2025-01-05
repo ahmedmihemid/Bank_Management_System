@@ -23,8 +23,7 @@ namespace Bank_Management_System
             private string _IsRead;
             private string _Date;
 
-
-        public static string ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Bank_DB.mdf;Integrated Security=True";
+        public static string ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\Bank_DB.mdf;Integrated Security=True";
 
 
         public clsMessage(enMode mode,int ID, string sender, string receiver, string messageText, string isRead,string Date)

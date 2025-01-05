@@ -16,6 +16,8 @@ namespace Bank_Management_System
         public LoginScreen()
         {
             InitializeComponent();
+            Icon = Icon.ExtractAssociatedIcon(AppDomain.CurrentDomain.FriendlyName);
+
         }
 
         public  string UserName;

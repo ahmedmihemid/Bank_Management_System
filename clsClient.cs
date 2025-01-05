@@ -15,7 +15,8 @@ public class clsClient : clsPerson
 
     private bool _markedForDelete = false;
 
-    public static string ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Bank_DB.mdf;Integrated Security=True";
+    public static string ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\Bank_DB.mdf;Integrated Security=True";
+
 
     private clsClient(Mode mode, string firstName, string lastName, string email, string phone,
         string accountNumber, string pinCode, float accountBalance)

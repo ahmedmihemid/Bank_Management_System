@@ -69,8 +69,6 @@ C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System\bin\Debug\Bank_
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System\bin\Debug\Bank_Management_System.pdb
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System\bin\Debug\Guna.UI2.dll
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System\obj\Debug\Bank_Man.53896208.Up2Date
-C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Bank_DB.mdf
-C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Bank_DB_log.ldf
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Bank_Management_System.exe.config
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Bank_Management_System.exe
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Bank_Management_System.pdb
@@ -108,3 +106,9 @@ C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\obj\Debu
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\obj\Debug\Bank_Man.53896208.Up2Date
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\obj\Debug\Bank_Management_System.exe
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\obj\Debug\Bank_Management_System.pdb
+C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Bank_Management_System.exe.manifest
+C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Bank_Management_System.application
+C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\obj\Debug\Bank_Management_System.exe.manifest
+C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\obj\Debug\Bank_Management_System.application
+C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Database\Bank_DB.mdf
+C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Database\Bank_DB_log.ldf

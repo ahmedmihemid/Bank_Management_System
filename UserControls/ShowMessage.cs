@@ -16,7 +16,7 @@ namespace Bank_Management_System.UserControls
             InitializeComponent();
         }
 
-        private static string ConnectionString = "Server=(localdb)\\MSSQLLocalDB; Database=bank_system_DB; Trusted_Connection=True;";
+        public static string ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\Bank_DB.mdf;Integrated Security=True";
 
 
 

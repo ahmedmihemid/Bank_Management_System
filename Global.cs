@@ -9,6 +9,8 @@ namespace Bank_Management_System
     internal class Global
     {
       public static clsUser  CurrentUser = clsUser.Find("");
+     
 
+       
     }
 }
