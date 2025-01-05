@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EQUvfnu7C0uCvFfX1ZaFMkMaTLevLWvo/ZDHyKXIDL0=</dsig:DigestValue>
+        <dsig:DigestValue>toZRbSSBaTQOVdHX1RyktGekkI9YrLjV+7TKXjoQwNk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -66,16 +66,7 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Bank_Management_System.exe.config" size="189">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Database\Bank_DB.mdf" size="8388608" writeableType="applicationData">
+  <file name="Bank_DB.mdf" size="8388608" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -84,13 +75,22 @@
       <dsig:DigestValue>le7KyDcb+Jdki1HocFChTLU0LxIWi9KERcH6AzIh6E4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Database\Bank_DB_log.ldf" size="8388608" writeableType="applicationData">
+  <file name="Bank_DB_log.ldf" size="8388608" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>vuWCehLyMiCXKIgjPOsnnhdNLhVTyO94zLE2zX/NHHQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Bank_Management_System.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="kUyJjHYC_400x400-removebg-preview.ico" size="4286">

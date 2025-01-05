@@ -112,3 +112,46 @@ C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\obj\Debu
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\obj\Debug\Bank_Management_System.application
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Database\Bank_DB.mdf
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System - Copy\bin\Debug\Database\Bank_DB_log.ldf
+C:\Users\MBM\source\repos\Bank_Management_System.git\bin\Debug\Bank_Management_System.exe.config
+C:\Users\MBM\source\repos\Bank_Management_System.git\bin\Debug\Bank_Management_System.exe.manifest
+C:\Users\MBM\source\repos\Bank_Management_System.git\bin\Debug\Bank_Management_System.application
+C:\Users\MBM\source\repos\Bank_Management_System.git\bin\Debug\Bank_Management_System.exe
+C:\Users\MBM\source\repos\Bank_Management_System.git\bin\Debug\Bank_Management_System.pdb
+C:\Users\MBM\source\repos\Bank_Management_System.git\bin\Debug\Guna.UI2.dll
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.csproj.AssemblyReference.cache
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.MainScreen.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.LoginScreen.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.ClientsTransactions.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.Properties.Resources.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.AddClientUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.AddUserUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.ClientList.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.CurrencyCalculatorUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.CurrencyUpdateUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.DeleteclientUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.DeleteUserUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.DepositUs.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.FindClientUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.FindCurrencyUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.FindUserUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.HomePageUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.ListCurrencyUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.LoginregisterUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.Message_UC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.SendMessage.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.ShowMessage.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.TransferLogUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.TransferUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.UpdateClientUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.UpdateUserUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.UserListUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.withdrawUC.resources
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.csproj.GenerateResource.cache
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.exe.manifest
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.application
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Man.53896208.Up2Date
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.exe
+C:\Users\MBM\source\repos\Bank_Management_System.git\obj\Debug\Bank_Management_System.pdb
+C:\Users\MBM\source\repos\Bank_Management_System.git\bin\Debug\Bank_DB.mdf
+C:\Users\MBM\source\repos\Bank_Management_System.git\bin\Debug\Bank_DB_log.ldf
