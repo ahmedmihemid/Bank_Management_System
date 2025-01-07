@@ -57,7 +57,7 @@ namespace Bank_Management_System.UserControls
         private void ShowMessage_Load(object sender, EventArgs e)
         {
             SqlConnection sqlConnection = new SqlConnection(ConnectionString);
-            string cmd = "SELECT ID, Date, ReceiverUser, IsRead FROM Message WHERE ReceiverUser = @ReceiverUser ORDER BY Date DESC;";
+            string cmd = "SELECT ID, Date, SenderUser, IsRead FROM Message WHERE ReceiverUser = @ReceiverUser ORDER BY Date DESC;";
             SqlCommand sqlCommand = new SqlCommand(cmd, sqlConnection);
             sqlCommand.Parameters.AddWithValue("@ReceiverUser", Global.CurrentUser.UserName);
 
@@ -66,7 +66,7 @@ namespace Bank_Management_System.UserControls
             dr.Fill(data);
 
             dataGridView1.DataSource = data;
-            dataGridView1.Columns[1].Width = 230;
+            dataGridView1.Columns[1].Width = 200;
             dataGridView1.Columns[2].Width = 170;
             dataGridView1.Columns[3].Width = 150;
             
@@ -98,6 +98,7 @@ namespace Bank_Management_System.UserControls
             }
         }
 
+      
 
     }
 }

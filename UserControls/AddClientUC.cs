@@ -17,6 +17,39 @@ namespace Bank_Management_System.UserControls
             InitializeComponent();
         }
 
+
+
+
+
+        private bool TextIsEmpty()
+        {
+            return string.IsNullOrWhiteSpace(AccNumberTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(FirstNameTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(LastNameTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(EmailTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(PhoneTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(BalanceTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(PinCodeTextBox.Text);
+        }
+
+        private bool ValidateInput()
+        {
+            if (TextIsEmpty())
+            {
+                MessageBox.Show("All fields are required. Please fill in all the textboxes.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            return true;
+        }
+
+
+
+
+
+
+
+
         private clsClient _ReadClientInfo(clsClient Client)
         {
             Client.FirstName=FirstNameTextBox.Text;
@@ -44,6 +77,12 @@ namespace Bank_Management_System.UserControls
 
         private  void  AddClient()
         {
+
+            if(!ValidateInput())
+            {
+                return;
+            }
+
             clsClient newClient=clsClient.FindClient(AccNumberTextBox.Text);
             if(!newClient.IsClientExist())
             {
@@ -64,5 +103,6 @@ namespace Bank_Management_System.UserControls
         {
             AddClient();
         }
+
     }
 }

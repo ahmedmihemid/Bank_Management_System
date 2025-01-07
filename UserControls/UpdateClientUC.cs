@@ -19,6 +19,30 @@ namespace Bank_Management_System.UserControls
 
 
 
+
+        private bool TextIsEmpty()
+        {
+            return string.IsNullOrWhiteSpace(FirstNameTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(LastNameTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(EmailTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(PhoneTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(BalanceTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(PasswordTextBox.Text);
+        }
+
+        private bool ValidateInput()
+        {
+            if (TextIsEmpty())
+            {
+                MessageBox.Show("All fields are required. Please fill in all the textboxes.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            return true;
+        }
+
+
+
         private void PrintEmptyTextBox()
         {
             FirstNameTextBox.Text = "";
@@ -56,6 +80,12 @@ namespace Bank_Management_System.UserControls
 
         private void UpdateClient()
         {
+            if (ValidateInput())
+            {
+                return;
+            }
+
+
             clsClient Client = clsClient.FindClient(AccNumberTextBox.Text);
             if (Client.IsClientExist())
             {

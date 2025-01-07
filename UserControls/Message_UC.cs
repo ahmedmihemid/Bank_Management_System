@@ -15,7 +15,13 @@ namespace Bank_Management_System.UserControls
         public Message_UC()
         {
             InitializeComponent();
+
+
+
         }
+
+        
+
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
@@ -33,7 +39,12 @@ namespace Bank_Management_System.UserControls
             MessagePanal.Controls.Add(message);
         }
 
-
-
+        private void Message_UC_Load(object sender, EventArgs e)
+        {
+            MessagePanal.Controls.Clear();
+            MessageMainUC message = new MessageMainUC();
+            message.Dock = DockStyle.Fill;
+            MessagePanal.Controls.Add(message);
+        }
     }
 }

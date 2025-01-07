@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bank_Management_System.exe" size="2305496">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bank_Management_System.exe" size="5785048">
       <assemblyIdentity name="Bank_Management_System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>toZRbSSBaTQOVdHX1RyktGekkI9YrLjV+7TKXjoQwNk=</dsig:DigestValue>
+        <dsig:DigestValue>VzEbvpLBrSyuDs/mXOa06tkS40dnnIuf/GabimQhzc0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

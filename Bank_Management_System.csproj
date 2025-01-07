@@ -242,6 +242,12 @@
     <Compile Include="UserControls\UpdateUserUC.Designer.cs">
       <DependentUpon>UpdateUserUC.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\MessageMainUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MessageMainUC.Designer.cs">
+      <DependentUpon>MessageMainUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\UserListUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -336,6 +342,9 @@
     <EmbeddedResource Include="UserControls\UpdateUserUC.resx">
       <DependentUpon>UpdateUserUC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MessageMainUC.resx">
+      <DependentUpon>MessageMainUC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UserListUC.resx">
       <DependentUpon>UserListUC.cs</DependentUpon>
     </EmbeddedResource>
@@ -399,6 +408,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="kUyJjHYC_400x400-removebg-preview.ico" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\rb_3363.png" />
+    <None Include="Resources\rb_157.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

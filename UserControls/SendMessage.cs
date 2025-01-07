@@ -18,9 +18,31 @@ namespace Bank_Management_System.UserControls
         }
 
 
+        private bool ValidateInput()
+        {
+          
+            MessageTextBox.Text = MessageTextBox.Text.Trim();
+         
+            if (string.IsNullOrWhiteSpace(MessageTextBox.Text))
+            {
+                MessageBox.Show("The message is required. Please enter text in the field.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false; 
+            }
+
+             return true; 
+        }
+
+
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+
+            if(!ValidateInput())
+            {
+                return ;
+            }
+
+
           
             if(clsUser.IsUserExist(UserNameTextBox.Text))
             {
@@ -34,7 +56,11 @@ namespace Bank_Management_System.UserControls
 
         }
 
+        private void SendMessage_Load(object sender, EventArgs e)
+        {
 
+        }
 
+       
     }
 }

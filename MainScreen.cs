@@ -102,7 +102,7 @@ namespace Bank_Management_System
         {
             if(!Global.CurrentUser.CheckAccessPermission(enPermissions.pManageClients))
             {
-                MessageBox.Show("You Dont Hava Acsess To Do That ");
+                MessageBox.Show("You do not have the required permissions");
                 return;
             }
           
@@ -113,7 +113,7 @@ namespace Bank_Management_System
         {
             if (!Global.CurrentUser.CheckAccessPermission(enPermissions.pManageUsers))
             {
-                MessageBox.Show("You Dont Hava Acsess To Do That ");
+                MessageBox.Show("You do not have the required permissions");
                 return;
 
             }
@@ -125,7 +125,7 @@ namespace Bank_Management_System
         {
             if (!Global.CurrentUser.CheckAccessPermission(enPermissions.pTranactions))
             {
-                MessageBox.Show("You Dont Hava Acsess To Do That ");
+                MessageBox.Show("You do not have the required permissions ");
                 return;
             }
             ShowsubMenu(TransactionsButtonsPanal);
@@ -135,7 +135,7 @@ namespace Bank_Management_System
         {
             if (!Global.CurrentUser.CheckAccessPermission(enPermissions.pCurrencyExchange))
             {
-                MessageBox.Show("You Dont Hava Acsess To Do That ");
+                MessageBox.Show("You do not have the required permissions ");
                 return;
             }
 

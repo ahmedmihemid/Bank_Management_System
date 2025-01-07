@@ -20,6 +20,48 @@ namespace Bank_Management_System.UserControls
 
         int Permissions = 0;
 
+
+
+
+        private bool TextIsEmpty()
+        {
+            return string.IsNullOrWhiteSpace(FirstNameTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(LastNameTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(EmailTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(PhoneTextBox.Text) ||
+                   string.IsNullOrWhiteSpace(PasswordTextBox.Text);
+        }
+
+        private bool ValidateInput()
+        {
+            if (TextIsEmpty())
+            {
+                MessageBox.Show("All fields are required. Please fill in all the textboxes.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            if (Permissions == 0)
+            {
+                MessageBox.Show("No permissions have been set for this action. Please configure the required permissions.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            return true;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         private clsUser _ReadUserInfo(clsUser User)
         {
             User.FirstName = FirstNameTextBox.Text;
@@ -60,6 +102,12 @@ namespace Bank_Management_System.UserControls
 
         private void UpdateUser()
         {
+            if(!ValidateInput())
+            {
+                return;
+            }
+
+
             if (!clsUser.IsUserExist(UserNameTextBox.Text))
             {
                 MessageBox.Show("The specified username was not found. Please verify the username and try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);

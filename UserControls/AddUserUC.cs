@@ -21,8 +21,46 @@ namespace Bank_Management_System.UserControls
 
         int Permissions = 0;
 
+
+
+
+
+        private bool TextIsEmpty()
+        {
+            return string.IsNullOrWhiteSpace(UserNameTextbox.Text) ||
+                   string.IsNullOrWhiteSpace(FirstNameTextbox.Text) ||
+                   string.IsNullOrWhiteSpace(LastNameTextbox.Text) ||
+                   string.IsNullOrWhiteSpace(EmailTextbox.Text) ||
+                   string.IsNullOrWhiteSpace(PhoneTextbox.Text) ||
+                   string.IsNullOrWhiteSpace(PasswordTextbox.Text);
+        }
+
+        private bool ValidateInput()
+        {
+            if (TextIsEmpty())
+            {
+                MessageBox.Show("All fields are required. Please fill in all the textboxes.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            if (Permissions == 0)
+            {
+                MessageBox.Show("No permissions have been set for this action. Please configure the required permissions.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+
+            return true;
+        }
+
+
+
+
+
+
+
         private clsUser _ReadUserInfo(clsUser User)
         {
+
             User.ID=clsUser.GetNewId();
             User.FirstName=FirstNameTextbox.Text;
             User.LastName=LastNameTextbox.Text;
@@ -36,12 +74,12 @@ namespace Bank_Management_System.UserControls
 
         private void PrintEmptyTextBox()
         {
-            UserNameTextbox.Text="";
-            FirstNameTextbox.Text = "";
-            LastNameTextbox.Text = "";
-            EmailTextbox.Text = "";
-            PhoneTextbox.Text = "";
-            PasswordTextbox.Text = "";
+            UserNameTextbox.Text   ="";
+            FirstNameTextbox.Text  = "";
+            LastNameTextbox.Text   = "";
+            EmailTextbox.Text      = "";
+            PhoneTextbox.Text      = "";
+            PasswordTextbox.Text   = "";
 
         }
 
@@ -65,11 +103,16 @@ namespace Bank_Management_System.UserControls
 
         private void AddUser()
         {
-           
+            if(!ValidateInput())
+            {
+                return;
+            }
+
+
             if (!clsUser.IsUserExist(UserNameTextbox.Text))
             {
                 clsUser newUser = clsUser.GetAddNewUserObject(UserNameTextbox.Text);
-                newUser = _ReadUserInfo(newUser);
+                newUser = _ReadUserInfo(newUser); 
                 newUser.SaveToDatabase();
                 PrintEmptyTextBox();
                 UncheckAll();

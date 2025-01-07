@@ -47,25 +47,25 @@
             this.MessageTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MessageTextBox.ForeColor = System.Drawing.Color.Black;
             this.MessageTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.MessageTextBox.Location = new System.Drawing.Point(279, 182);
+            this.MessageTextBox.Location = new System.Drawing.Point(138, 218);
             this.MessageTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MessageTextBox.Multiline = true;
             this.MessageTextBox.Name = "MessageTextBox";
             this.MessageTextBox.PasswordChar = '\0';
             this.MessageTextBox.PlaceholderText = "";
             this.MessageTextBox.SelectedText = "";
-            this.MessageTextBox.Size = new System.Drawing.Size(477, 257);
+            this.MessageTextBox.Size = new System.Drawing.Size(747, 236);
             this.MessageTextBox.TabIndex = 70;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(288, 118);
+            this.label1.Location = new System.Drawing.Point(134, 115);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 22);
+            this.label1.Size = new System.Drawing.Size(193, 22);
             this.label1.TabIndex = 69;
-            this.label1.Text = "USER NAME";
+            this.label1.Text = "RECEIVER USER NAME";
             // 
             // UserNameTextBox
             // 
@@ -80,13 +80,13 @@
             this.UserNameTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.UserNameTextBox.ForeColor = System.Drawing.Color.Black;
             this.UserNameTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.UserNameTextBox.Location = new System.Drawing.Point(417, 101);
+            this.UserNameTextBox.Location = new System.Drawing.Point(138, 141);
             this.UserNameTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UserNameTextBox.Name = "UserNameTextBox";
             this.UserNameTextBox.PasswordChar = '\0';
             this.UserNameTextBox.PlaceholderText = "";
             this.UserNameTextBox.SelectedText = "";
-            this.UserNameTextBox.Size = new System.Drawing.Size(339, 55);
+            this.UserNameTextBox.Size = new System.Drawing.Size(502, 54);
             this.UserNameTextBox.TabIndex = 68;
             // 
             // guna2Button2
@@ -99,9 +99,9 @@
             this.guna2Button2.FillColor = System.Drawing.Color.SpringGreen;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Location = new System.Drawing.Point(279, 446);
+            this.guna2Button2.Location = new System.Drawing.Point(657, 142);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(477, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(228, 54);
             this.guna2Button2.TabIndex = 67;
             this.guna2Button2.Text = "SEND";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -115,7 +115,8 @@
             this.Controls.Add(this.UserNameTextBox);
             this.Controls.Add(this.guna2Button2);
             this.Name = "SendMessage";
-            this.Size = new System.Drawing.Size(1011, 582);
+            this.Size = new System.Drawing.Size(1011, 624);
+            this.Load += new System.EventHandler(this.SendMessage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
