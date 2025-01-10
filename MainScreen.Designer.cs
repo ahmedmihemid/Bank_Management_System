@@ -666,7 +666,9 @@
             this.Controls.Add(this.MainPanal);
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "MainScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Screen";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainScreen_FormClosing);
             this.Load += new System.EventHandler(this.MainScreen_Load);
             this.CLientsButtonsPanal.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

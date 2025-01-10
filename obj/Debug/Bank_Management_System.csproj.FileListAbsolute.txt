@@ -166,7 +166,6 @@ C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\bin\Debug\G
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.csproj.AssemblyReference.cache
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.MainScreen.resources
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.LoginScreen.resources
-C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.ClientsTransactions.resources
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.Properties.Resources.resources
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.AddClientUC.resources
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.AddUserUC.resources
