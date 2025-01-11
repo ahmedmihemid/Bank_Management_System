@@ -182,12 +182,6 @@
     <Compile Include="UserControls\HomePageUC.Designer.cs">
       <DependentUpon>HomePageUC.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\ListCurrencyUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\ListCurrencyUC.Designer.cs">
-      <DependentUpon>ListCurrencyUC.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserControls\LoginregisterUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -305,9 +299,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\HomePageUC.resx">
       <DependentUpon>HomePageUC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\ListCurrencyUC.resx">
-      <DependentUpon>ListCurrencyUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\LoginregisterUC.resx">
       <DependentUpon>LoginregisterUC.cs</DependentUpon>

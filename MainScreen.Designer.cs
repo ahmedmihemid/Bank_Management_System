@@ -43,7 +43,6 @@
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.TransactionsButtonsPanal = new System.Windows.Forms.Panel();
             this.button13 = new System.Windows.Forms.Button();
@@ -83,7 +82,7 @@
             this.DateLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.DateLabel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DateLabel.ForeColor = System.Drawing.Color.White;
-            this.DateLabel.Location = new System.Drawing.Point(1019, 23);
+            this.DateLabel.Location = new System.Drawing.Point(1006, 23);
             this.DateLabel.Name = "DateLabel";
             this.DateLabel.Size = new System.Drawing.Size(50, 26);
             this.DateLabel.TabIndex = 7;
@@ -227,7 +226,7 @@
             this.button25.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button25.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button25.Location = new System.Drawing.Point(0, 1182);
+            this.button25.Location = new System.Drawing.Point(0, 1152);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(288, 66);
             this.button25.TabIndex = 9;
@@ -242,11 +241,10 @@
             this.CurrencyButtonsPanal.Controls.Add(this.button20);
             this.CurrencyButtonsPanal.Controls.Add(this.button21);
             this.CurrencyButtonsPanal.Controls.Add(this.button22);
-            this.CurrencyButtonsPanal.Controls.Add(this.button23);
             this.CurrencyButtonsPanal.Dock = System.Windows.Forms.DockStyle.Top;
             this.CurrencyButtonsPanal.Location = new System.Drawing.Point(0, 986);
             this.CurrencyButtonsPanal.Name = "CurrencyButtonsPanal";
-            this.CurrencyButtonsPanal.Size = new System.Drawing.Size(288, 196);
+            this.CurrencyButtonsPanal.Size = new System.Drawing.Size(288, 166);
             this.CurrencyButtonsPanal.TabIndex = 7;
             // 
             // button20
@@ -256,7 +254,7 @@
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Location = new System.Drawing.Point(0, 144);
+            this.button20.Location = new System.Drawing.Point(3, 108);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(288, 48);
             this.button20.TabIndex = 4;
@@ -272,7 +270,7 @@
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Location = new System.Drawing.Point(0, 96);
+            this.button21.Location = new System.Drawing.Point(3, 54);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(288, 48);
             this.button21.TabIndex = 3;
@@ -288,7 +286,7 @@
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button22.ForeColor = System.Drawing.Color.White;
-            this.button22.Location = new System.Drawing.Point(0, 48);
+            this.button22.Location = new System.Drawing.Point(0, 0);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(288, 48);
             this.button22.TabIndex = 2;
@@ -296,22 +294,6 @@
             this.button22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button22.UseVisualStyleBackColor = false;
             this.button22.Click += new System.EventHandler(this.button22_Click);
-            // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.Gray;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button23.Location = new System.Drawing.Point(0, 0);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(288, 48);
-            this.button23.TabIndex = 0;
-            this.button23.Text = "     List Currencies";
-            this.button23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button23.UseVisualStyleBackColor = false;
-            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
@@ -713,7 +695,6 @@
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;

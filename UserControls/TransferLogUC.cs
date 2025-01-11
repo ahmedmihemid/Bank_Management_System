@@ -39,9 +39,16 @@ namespace Bank_Management_System.UserControls
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PrintDocument printDocument1 = new PrintDocument();
-            printDocument1.PrintPage += new PrintPageEventHandler(PrintPageHandler);
-            printDocument1.Print();
+            try
+            {
+                PrintDocument printDocument1 = new PrintDocument();
+                printDocument1.PrintPage += new PrintPageEventHandler(PrintPageHandler);
+                printDocument1.Print();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error during printing: " + ex.Message);
+            }
         }
 
 

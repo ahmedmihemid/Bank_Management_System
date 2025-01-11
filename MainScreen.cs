@@ -322,17 +322,9 @@ namespace Bank_Management_System
         }
 
 
-        private void button23_Click(object sender, EventArgs e)
-        {
-            MainPanal.Controls.Clear();
-            ListCurrencyUC currencyUC = new ListCurrencyUC();
-            currencyUC.Dock = DockStyle.Fill;
-            MainPanal.Controls.Add(currencyUC);
-        }
 
 
-
-        // Home Button
+      // Home Button
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             MainPanal.Controls.Clear();

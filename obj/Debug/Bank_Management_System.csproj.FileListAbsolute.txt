@@ -179,7 +179,6 @@ C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\B
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.FindCurrencyUC.resources
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.FindUserUC.resources
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.HomePageUC.resources
-C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.ListCurrencyUC.resources
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.LoginregisterUC.resources
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.Message_UC.resources
 C:\Users\MBM\OneDrive\سطح المكتب\Bank_Management_System.git\obj\Debug\Bank_Management_System.UserControls.SendMessage.resources

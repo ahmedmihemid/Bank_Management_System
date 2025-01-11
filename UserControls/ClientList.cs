@@ -85,7 +85,7 @@ namespace Bank_Management_System.UserControls
             Brush brush = Brushes.Black;
             Pen linePen = new Pen(Color.Black, 1); 
 
-            int startX = 50;  
+            int startX = 20;  
             int startY = 50; 
             int offsetY = 0; 
             int columnWidth = 120;
@@ -107,9 +107,9 @@ namespace Bank_Management_System.UserControls
             }
 
           
-            e.Graphics.DrawLine(linePen, 50, startY + offsetY + 20, startX, startY + offsetY + 20);
+            e.Graphics.DrawLine(linePen, 20, startY + offsetY + 20, startX, startY + offsetY + 20);
             offsetY += 30; 
-            startX = 50;
+            startX = 20;
 
            
             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -124,9 +124,9 @@ namespace Bank_Management_System.UserControls
                 }
 
                
-                e.Graphics.DrawLine(linePen, 50, startY + offsetY + 20, startX, startY + offsetY + 20);
+                e.Graphics.DrawLine(linePen, 20, startY + offsetY + 20, startX, startY + offsetY + 20);
                 offsetY += 25; 
-                startX = 50;
+                startX = 20;
             }
         }
 
