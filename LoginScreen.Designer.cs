@@ -178,6 +178,7 @@
             this.Controls.Add(this.UserLogTextBox);
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2PictureBox1);
+            this.MaximizeBox = false;
             this.Name = "LoginScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login Screen";

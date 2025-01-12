@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8n/6NxtrehjlB1ILvmzvnMsFPKcdBgJGVLiwjdcNtvQ=</dsig:DigestValue>
+        <dsig:DigestValue>LDDTX5AA9ZRSQUtXqr4dY377tAcgzXYVWMi7uzUVZfo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -72,7 +72,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>le7KyDcb+Jdki1HocFChTLU0LxIWi9KERcH6AzIh6E4=</dsig:DigestValue>
+      <dsig:DigestValue>80weBMX07VyhEJEgmmS5OcNVCMPt+nMyNU2IPVjE8+A=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Bank_DB_log.ldf" size="8388608" writeableType="applicationData">
@@ -81,7 +81,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>vuWCehLyMiCXKIgjPOsnnhdNLhVTyO94zLE2zX/NHHQ=</dsig:DigestValue>
+      <dsig:DigestValue>IsvylluTQQHC9i5zU/AKqIhHllkIUTZvnhcGBrBiOEw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Bank_Management_System.exe.config" size="189">

@@ -80,7 +80,7 @@ namespace Bank_Management_System.UserControls
 
         private void UpdateClient()
         {
-            if (ValidateInput())
+            if (!ValidateInput())
             {
                 return;
             }

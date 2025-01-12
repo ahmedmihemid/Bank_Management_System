@@ -51,17 +51,6 @@ namespace Bank_Management_System.UserControls
 
 
 
-
-
-
-
-
-
-
-
-
-
-
         private clsUser _ReadUserInfo(clsUser User)
         {
             User.FirstName = FirstNameTextBox.Text;
@@ -177,21 +166,31 @@ namespace Bank_Management_System.UserControls
 
 
 
+
+
         private void UpdatePermission(CheckBox checkBox, clsUser.enPermissions permission)
         {
             if (checkBox.Checked)
             {
-                Permissions |= (int)permission;   
+                Permissions |= (int)permission;  
             }
             else
             {
-                Permissions &= ~(int)permission;   
+                Permissions &= ~(int)permission;  
+            }
+        }
+
+        private void UpdateAllPermissions()
+        {
+            Permissions = AllPER.Checked ? (int)clsUser.enPermissions.eAll : 0;
+            SetCheckBoxState(!AllPER.Checked);
+            if (!AllPER.Checked)
+            {
+                UncheckAbuttons();
             }
         }
 
 
-
-       
 
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -216,23 +215,7 @@ namespace Bank_Management_System.UserControls
 
         private void AllPER_CheckedChanged_1(object sender, EventArgs e)
         {
-            if (AllPER.Checked)
-            {
-               
-                Permissions = (int)clsUser.enPermissions.eAll;
-                SetCheckBoxState(false);
-                UncheckAbuttons();
-        
-            }
-            else
-            {
-                if (clsUser.CheckAccessPermission(clsUser.enPermissions.eAll, Permissions))
-                {
-                    Permissions -= (int)clsUser.enPermissions.eAll;
-
-                }
-                SetCheckBoxState(true);
-            }
+            UpdateAllPermissions();
         }
 
         private void ManageClientPER_CheckedChanged_1(object sender, EventArgs e)

@@ -43,7 +43,8 @@ namespace Bank_Management_System
                 PasswordLogTextBox.Text = "";
                 clsUser.InsertLoginRsisterInfoToDatabase();
                 mainScreen.ShowDialog();
-               
+                Hide();
+                Close();
             }
             else
             {

@@ -211,8 +211,8 @@ public class clsClient : clsPerson
                 cmd.Parameters.AddWithValue("@SenderAccNumber", this.AccountNumber);
                 cmd.Parameters.AddWithValue("@RecipientAccNumber", client.AccountNumber);
                 cmd.Parameters.AddWithValue("@Amount", Amount);
-                cmd.Parameters.AddWithValue("@SenderBalance", this.AccountBalance - Amount);
-                cmd.Parameters.AddWithValue("@RecipientBalance", client.AccountBalance + Amount);
+                cmd.Parameters.AddWithValue("@SenderBalance", this.AccountBalance );
+                cmd.Parameters.AddWithValue("@RecipientBalance", client.AccountBalance );
 
                 cmd.ExecuteNonQuery();
             }

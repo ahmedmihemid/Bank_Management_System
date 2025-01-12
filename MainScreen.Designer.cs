@@ -647,6 +647,7 @@
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.MainPanal);
             this.ForeColor = System.Drawing.Color.Black;
+            this.MaximizeBox = false;
             this.Name = "MainScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Screen";
