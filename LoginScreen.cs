@@ -43,8 +43,7 @@ namespace Bank_Management_System
                 PasswordLogTextBox.Text = "";
                 clsUser.InsertLoginRsisterInfoToDatabase();
                 mainScreen.ShowDialog();
-                Hide();
-                Close();
+              
             }
             else
             {
@@ -62,6 +61,11 @@ namespace Bank_Management_System
         private void PasswordLogTextBox_TextChanged(object sender, EventArgs e)
         {
             Password = PasswordLogTextBox.Text;
+        }
+
+        private void LoginScreen_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

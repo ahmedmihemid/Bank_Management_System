@@ -348,12 +348,12 @@ namespace Bank_Management_System
 
         private void button25_Click(object sender, EventArgs e)
         {
-           Close();
+           this.Close();
         }
 
         private void MainScreen_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            //Application.Exit();
         }
     }
 }
